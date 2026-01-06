@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# C#
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Windows/VS Code
+Thumbs.db
+.vscode/

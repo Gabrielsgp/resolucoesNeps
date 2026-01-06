@@ -1,0 +1,125 @@
+# Insensibilidade
+
+**Neps Academy**
+- **Dificuldade:** Facil
+- **Categoria:** Matematica
+- **Link:** [https://neps.academy/br/exercise/316](https://neps.academy/br/exercise/316)
+
+## Enunciado
+O planeta Bizz fica a 133 upals de distância do planeta Terra (onde "upals" é uma unidade de medida dada por "um monte de anos-luz"), e parece ser o único planeta com vida além do nosso. Este planeta é muito interessante, pois, em cada país, seus habitantes têm uma característica diferente.
+
+Um desses países é a Cegônia, que tem como característica o fato de que todos os seus habitantes são cegos. Em compensação, todos possuem um "sexto sentido" acentuado, podendo perceber o que está à sua volta mesmo sem enxergar.
+
+Este ano, o governo da Cegônia fará um censo, e dentre os dados de seus habitantes, quer saber o quanto de insensibilidade cada pessoa possui. A insensibilidade indica quão ruim é a capacidade das pessoas de perceber os objetos à sua volta sem precisar enxergar.
+
+Tal teste é feito da seguinte maneira: a pessoa é colocada em uma sala onde encontram-se vários objetos em posições pré-determinadas. A pessoa deve, então, dizer quais são as coordenadas de cada objeto dentro da sala.
+
+Para cada objeto, calcula-se o quadrado da distância entre a posição adivinhada pela pessoa e a posição real do objeto; esse valor é chamado de 
+D
+D. O nível de insensibilidade da pessoa é dado pela soma de todos os 
+D
+D.
+
+Por exemplo, suponha que na sala existam 4 objetos, nas coordenadas (1, 1), (3, 4), (5, 7) e (10, 10). Se a pessoa então disser que os objetos estão, respectivamente, nas posições (1, 2), (5, 4), (5, 7) e (19, 10), o valor de 
+D
+D para cada objeto será 1, 4, 0 e 81 e portanto o nível de insensibilidade da pessoa é 1 + 4 + 0 + 81 = 86.
+
+Você precisa fazer um programa que, dadas as coordenadas verdadeiras dos objetos e as coordenadas indicadas por uma pessoa, diga qual é o nível de insensibilidade dessa pessoa.
+
+Entrada
+A entrada contém um único conjunto de testes, que deve ser lido do dispositivo de entrada padrão (normalmente o teclado).
+
+A primeira linha da entrada contém um único inteiro 
+N
+N, indicando quantos objetos estão no quarto. As 
+N
+N linhas seguintes contêm cada uma quatro inteiros 
+X
+1
+X 
+1
+​
+ , 
+Y
+1
+Y 
+1
+​
+ , 
+X
+2
+X 
+2
+​
+ , 
+Y
+2
+Y 
+2
+​
+ . Cada linha representa um objeto: a posição real do objeto é 
+(
+X
+1
+,
+Y
+1
+)
+(X 
+1
+​
+ ,Y 
+1
+​
+ ), e a posição onde a pessoa disse estar tal objeto é 
+(
+X
+2
+,
+Y
+2
+)
+(X 
+2
+​
+ ,Y 
+2
+​
+ ).
+
+Saída
+Seu programa deve imprimir, na saída padrão, uma única linha, contendo um único inteiro, indicando o nível de insensibilidade da pessoa estudada.
+
+Restrições
+1
+≤
+N
+≤
+1000
+1≤N≤1000
+0
+≤
+X
+i
+≤
+1000
+0≤X 
+i
+​
+ ≤1000
+Exemplos de Entrada	Exemplos de Saída
+4
+1 1 1 2
+3 4 5 4
+5 7 5 7
+10 10 19 10
+86
+5
+0 0 0 0
+1 3 1 3
+4 10 11 10
+2 2 3 3
+0 1 0 1
+51
+
+## Notas
