@@ -1,7 +1,7 @@
 import os
 
 # Definições oficiais do Neps
-LINGUAGENS = ["Python", "CSharp","Dart"]
+LINGUAGENS = ["Python", "CSharp","Dart","C"]
 DIFICULDADES = ["Super Facil", "Facil", "Medio", "Dificil", "Super Dificil"]
 CATEGORIAS = ["Basicos", "Tecnicas", "Estruturas", "Matematica", "Grafos", "Strings"]
 
